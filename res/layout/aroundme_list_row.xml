@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <RelativeLayout android:id="@+id/relativeLayout1" 
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent" 
+    		xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:layout_height="wrap_content" 
+        			android:layout_width="wrap_content" 
+        			android:id="@+id/imageView_LocPhotoIcon" 
+        			android:src="@drawable/icon" 
+        			android:layout_alignParentLeft="true"></ImageView>
+        <LinearLayout android:layout_height="wrap_content" 
+        				android:id="@+id/linearLayout1" 
+        				android:layout_toRightOf="@+id/imageView1" 
+        				android:layout_alignTop="@+id/imageView1" 
+        				android:layout_alignBottom="@+id/imageView1" 
+        				android:layout_width="match_parent" 
+        				android:orientation="vertical">
+            <TextView android:text="TextView" 
+            			android:id="@+id/textView_LocTitle" 
+            			android:layout_height="wrap_content" 
+            			android:layout_width="match_parent"></TextView>
+            <TextView android:layout_width="match_parent" 
+            			android:layout_height="wrap_content" 
+            			android:text="TextView" 
+            			android:id="@+id/textView_LocAddress"></TextView>
+        </LinearLayout>
+    </RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Tourist</string>
+    <string name="app_name">Tourist</string>
+    <string name="home_grid_cell_1">Around Me</string>
+    <string name="radius">800 m</string>
+    <string name="map">Map</string>
+    
+    <string name="meters70">70</string>
+    <string name="meters100">100</string>
+    <string name="meters200">200</string>
+    <string name="meters500">500</string>
+    <string name="meters800">800</string>
+    <string name="meters1000">1000</string>
+    <string name="meters1500">1500</string>
+    <string name="meters2000">2000</string>
+    <string name="meters3000">3000</string>
+    <string name="meters5000">5000</string>
+    
+</resources>
